@@ -7,6 +7,11 @@
     font-family: $inter;
     font-size: $header-contact-p;
 
+    img{
+        width: 2rem;
+        height: 2rem;
+    }
+
     & .wrapper{
         display: flex;
         gap: 4rem;
@@ -15,19 +20,24 @@
             width: 1px;
             height: 100%;
             background-color: $lightGray;
-
         }
 
         & .header__contact__address{
+            display: flex;
+            gap: 1rem;
             color: $gray;
         }
 
         & .header__contact__schedule{
-            color: $gray; 
+            display: flex;
+            gap: 1rem;
+            color: $gray;
         }
     }
 
     & .header__contact__phone{
+        display: flex;
+        gap: 1rem;
         color: $gray;
     }
 }
