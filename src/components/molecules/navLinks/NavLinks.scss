@@ -1,0 +1,23 @@
+@import '../../../scss/variables';
+
+nav{
+    margin-left: $nav-padding-left;
+    margin-right: $nav-padding-right;
+    padding-top: $nav-padding-top;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $inter;
+    font-size: $header-contact-p;
+    border-top: 2px solid $lightGray;
+
+    & img{
+        position: relative;
+        left: -10px;
+    }
+
+    & .navigation__links{
+        display: flex;
+        gap: 5rem;
+    }
+}

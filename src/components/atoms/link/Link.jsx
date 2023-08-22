@@ -1,7 +1,7 @@
 import React from 'react'
+import './Link.scss';
 
 const Link = (props) => {
-    const { link } = props.link;
 
     return (
         <li>
