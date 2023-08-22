@@ -4,7 +4,13 @@ li{
     a{
         font-size: $nav-link;
         font-family: $inter;
-        font-weight: $bold;
+        font-weight: $normal;
         color: $black;
+        transition: all .2s ease-in;
+
+        &:hover{
+            font-size: calc($nav-link + 0.2rem);
+            font-weight: $bold;
+        }
     }
 }

@@ -4,9 +4,15 @@ button{
     border-radius: $button-border-radius;
     background-color: $blue;
     font-weight: $bold;
+    font-size: $button;
     color: $white;
     padding: 1rem 3rem;
     border: none;
     cursor: pointer;
+    transition: all .55s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     
+    &:hover{
+        box-shadow: 0px 0px 1rem $blue;
+        font-size: calc($button + 0.2rem);
+    }
 }
