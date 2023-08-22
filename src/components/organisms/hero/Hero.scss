@@ -1,0 +1,31 @@
+@import '../../../scss/variables';
+
+.hero{
+    padding-left: $hero-padding-left;
+    padding-top: $hero-padding-top;
+    padding-bottom: $hero-padding-bottom;
+    font-family: $inter;
+    background-image: url('../../../assets/heroImage.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+    .hero__text{
+        max-width: 50rem;
+    }
+
+    h1{
+        font-size: $hero-h1;
+        font-weight: $bold;
+        color: $black;
+        line-height: 7.6rem; 
+        // outline: 6px solid seagreen;
+    }
+
+    p{
+        padding:3.2rem 0;
+        font-size: $hero-p;
+        max-width: 54rem;
+        color: $gray;
+    }
+
+}

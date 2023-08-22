@@ -25,7 +25,6 @@ const Header = () => {
     <header>
       <HeaderContact contactInformation={contactInformation}/>
       <NavLinks />
-      
     </header>
   )
 }
