@@ -16,8 +16,8 @@ const NavLinks = () => {
 		<nav>
 			<img src={logo} alt="" />
 			<div className="navigation__links">
-                {navigationLinks.map((link)=>{
-                  return <Link link={link}/>
+                {navigationLinks.map((link,index)=>{
+                  return <Link key={index} link={link}/>
                 })}
             </div>
 			<Button text={buttonText} />
