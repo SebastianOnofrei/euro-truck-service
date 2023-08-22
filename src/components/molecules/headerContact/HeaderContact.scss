@@ -1,0 +1,33 @@
+@import '../../../scss/variables';
+
+.header__contact{
+    padding: $header-padding-top $header-padding-right $header-padding-bottom $header-padding-left;
+    display: flex;
+    justify-content: space-between;
+    font-family: $inter;
+    font-size: $header-contact-p;
+
+    & .wrapper{
+        display: flex;
+        gap: 4rem;
+
+        & .decoration-line{
+            width: 1px;
+            height: 100%;
+            background-color: $lightGray;
+
+        }
+
+        & .header__contact__address{
+            color: $gray;
+        }
+
+        & .header__contact__schedule{
+            color: $gray; 
+        }
+    }
+
+    & .header__contact__phone{
+        color: $gray;
+    }
+}
