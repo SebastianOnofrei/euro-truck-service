@@ -7,7 +7,7 @@ const ServiceCard = (props) => {
     return (
     <div className={'service__card '+ props.className}>
         <h3>{headline}</h3>
-        <p>{description}</p>
+        <p id='service__card__description'>{description}</p>
     </div>
     )
 }

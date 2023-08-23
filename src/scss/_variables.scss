@@ -20,10 +20,19 @@
  $hero-padding-top: 10rem;
  $hero-padding-bottom: 20rem;
 
- $services-padding-left:16rem;
- $services-padding-right:12rem;
+ $services-padding-left: 16rem;
+ $services-padding-right: 12rem;
+
+ $service-card-padding-left: 3rem;
+ $service-card-padding-right: 10rem;
+ $service-card-padding-top: 3rem;
+ $service-card-padding-bottom: 3rem;
+ $service-card-p-padding-top: 2rem;
+ $service-card-p-padding-bottom: 4rem;
+
 /***********
  * BORDERS *
  ***********/
 
  $button-border-radius: 0.8rem;
+ $service-card-border-radius:1rem;
