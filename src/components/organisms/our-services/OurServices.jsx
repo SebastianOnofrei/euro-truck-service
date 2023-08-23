@@ -12,25 +12,21 @@ const OurServices = () => {
 			headline: "Б/у запчасти для грузовых авто из Европы",
 			description:
 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.",
-			imagePath: "",
 		},
 		{
 			headline: "Автомойка грузовых и легковых авто",
 			description:
 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.",
-			imagePath: "",
 		},
 		{
 			headline: "Магазин аксессуаров",
 			description:
 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.",
-			imagePath: "",
 		},
 		{
 			headline: "Пункт замены масла легковых авто",
 			description:
 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.",
-			imagePath: "",
 		},
 	];
 

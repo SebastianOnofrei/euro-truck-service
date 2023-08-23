@@ -7,6 +7,7 @@
     padding: $service-card-padding-top $service-card-padding-right $service-card-padding-bottom $service-card-padding-left;
     border-radius: $service-card-border-radius;
     background-color: $serviceCardGray;
+    
 
     h3{
         color: $black;
@@ -21,19 +22,38 @@
         font-family: $inter;
         font-size: $service-card-paragraph;
         font-weight: $regular;
+        padding-right: $service-card-p-padding-right;
+        
     }
 
     &.service-0{
-         grid-area: 1 / 1 / 2 / 2;
+        grid-area: 1 / 1 / 2 / 2;
+        background-image: url('../../../assets/car-wash.png');
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: 300px;
     }
     
     &.service-1{
         grid-area: 1 / 2 / 2 / 3;
+        background-image: url('../../../assets/oil.png');
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: 250px;
+        
     }
     &.service-2{
         grid-area: 2 / 1 / 3 / 2;
+        background-image: url('../../../assets/oil.png');
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: 250px;
     }
     &.service-3{
         grid-area: 2 / 2 / 3 / 3;
+        background-image: url('../../../assets/car-wash.png');
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: 300px;
     }
 }

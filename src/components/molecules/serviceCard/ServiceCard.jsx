@@ -3,7 +3,7 @@ import './ServiceCard.scss';
 
 const ServiceCard = (props) => {
 
-    const {headline,description,imagePath} = props.service;
+    const {headline,description} = props.service;
     return (
     <div className={'service__card '+ props.className}>
         <h3>{headline}</h3>
