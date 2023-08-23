@@ -1,4 +1,23 @@
+@import '../../../scss/variables';
+
 .services{
+    padding-left: $services-padding-left;
+    padding-right: $services-padding-right;
+    font-family: $inter;
+
+    h2{
+        font-size: $services-h2 ;
+        text-align: center;
+        color: $black;
+    }
+
+    p{
+        text-align: center;
+        color: gray;
+        font-family:$inter;
+        font-size: $services-paragraph;
+
+    }
 
     .services__wrapper{
         display: grid;

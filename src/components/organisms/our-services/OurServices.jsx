@@ -36,7 +36,7 @@ const OurServices = () => {
 
     return (
     <section className='services'>
-      <h1>{headlineText}</h1>
+      <h2>{headlineText}</h2>
       <p>{descriptionText}</p>
       {/* aici fac un card */}
       <div className="services__wrapper">

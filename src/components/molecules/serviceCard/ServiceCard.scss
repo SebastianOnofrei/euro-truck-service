@@ -1,5 +1,7 @@
 .service__card{
 
+    max-width: 50rem;
+
     &.service-0{
         background-color: rgb(223, 34, 160);
         grid-area: 1 / 1 / 2 / 2;
