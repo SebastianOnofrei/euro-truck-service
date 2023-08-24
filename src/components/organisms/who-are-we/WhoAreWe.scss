@@ -1,0 +1,28 @@
+@import '../../../scss/variables';
+
+.who-we-are{
+    height: 500px;
+    padding-left: $who-we-are-padding-left;
+    margin-right: $who-we-are-margin-right;
+    background-color: $white;
+    background-image: url('../../../assets/car-logos.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    .who-we-are__text{
+        max-width: 54rem;
+    h1{
+        color: $black;
+        font-family: $inter;
+        font-size: $who-we-are-h1;
+        font-weight: $bold;
+    }
+    p{
+        color:$gray;
+        font-family: $inter;
+        font-size: $who-we-are-p;
+        font-weight: $regular;
+        padding-top: $who-we-are-padding-top-paragraph;
+    }
+    }
+    
+}
